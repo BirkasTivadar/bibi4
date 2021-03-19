@@ -65,7 +65,6 @@ public class Time implements Comparable<Time> {
         return this.compareTo(new Time(hours, minutes, seconds)) < 0;
     }
 
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
